@@ -11,3 +11,14 @@
 //     dynamically code with jQuery
 
 //     link to repo || github page link || portfolio w/ link link>>>>>
+
+
+//i know i need some objects containing questions
+
+//this is stolen from w3schools.com
+//this is a thing, a function that will alert, after sixty seconds, some sort of message to the user
+//eventually this should run a function that "The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly." but i wouldnt bet on that outcome.
+function myFunction() {
+    setTimeout(function(){ alert("somesort of message to the user"); }, 60000);
+  }
+
