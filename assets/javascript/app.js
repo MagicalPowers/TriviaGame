@@ -60,9 +60,21 @@ var global24;
 var global25;
 
 //now, a function, which i think should load the first question-answer set
+//i suppose i coule use a jQuery function here
 window.onload = function () {
   global21 = 0;
-  
+  questiontrash1.innerHTML = global1;
+  optiontrash1.innerHTML = global2;
+
+}
+//this is a function that should run when a correct answer is chosen
+function function1() {
+  global21 = 1;
+
+}
+//this is a function that should run when an incorrect answer is chosen
+function function2() {
+  global21 = 0;
 }
 
 
