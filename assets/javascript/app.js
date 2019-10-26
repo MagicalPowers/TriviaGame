@@ -79,6 +79,7 @@ function function2() {
 
 
 
+
 function myFunction() {
     setTimeout(function(){ alert("somesort of message to the user"); }, 60000);
   }
