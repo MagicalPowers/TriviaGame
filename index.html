@@ -1,41 +1,46 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--this is a link to a stylesheet. to boostraps cdn. i have no association with this cdn, the company, et al. i have not contributed any of this code, but it is my earnest belief that bootstrap's license allows me fair use.-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--this is a link to a javacript file, describing a bunch of functions that make javascript more complex. some people refer to this as jQuery. i have no association with this, but i believe their license allows me fair use.-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>ZP_Option_One_Basic_Quiz_Timed_Form</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <title>ZTP Trivia!</title>
+  </head>
+  <body>
     <div class="container">
-        <span class="row" id="row1"><h1 id="titletrash">A name for a trivia-type experience</h1></span>
-        <span class="row" id="row2"><h2 id="timertrash">Time remaining: 28 weeks later</h2></span>
-        <span class="row" id="row3"><h3 id="questiontrash1">this is a question of some sort1</h3></span>
-        <span class="row" id="row4"><span id="optiontrash1">this will be several possible answers, all radio buttions, whatever they are</span></span>
-        <span class="row" id="row5"><h3 id="questiontrash2">this is a question of some sort2</h3></span>
-        <span class="row" id="row6"><span id="optiontrash2">2this will be several possible answers, all radio buttions, whatever they are</span></span>
-        <span class="row" id="row7"><h3 id="questiontrash3">this is a question of some sort3</h3></span>
-        <span class="row" id="row8"><span id="optiontrash3">3this will be several possible answers, all radio buttions, whatever they are</span></span>
-        <span class="row" id="row9"><h2 id="submittrash">I think that this will be a SUBMIT button</h2></span>
+      <span class="row" id="row1"
+        ><div class="col-9">
+          <div class="row justify-content-md-center">
+            <h1>WELCOME TO THE TRIVIA EXPERIENCE</h1>
+          </div>
+          <div class="row justify-content-md-center">
+            THIS IS THE QUESTION PRESENTATION AREA
+          </div>
+        </div>
+        <div class="col">
+          <div class="row justify-content-md-center" id="timer">
+            THIS IS THE TIMER AREA
+          </div>
+          <div class="row justify-content-md-center" id="submitButton">
+            THIS IS THE SUBMIT BUTTON AREA
+          </div>
+        </div></span
+      >
+      <span class="row justify-content-md-center" id="row2"
+        ><h2 id="resultsRow">RESULTS ROW</h2></span
+      >
+      <span class="row justify-content-md-center" id="row3"
+        ><h1 id="footer">FOOTER ROW</h1></span
+      >
     </div>
-    i will create a trivia form with multiple choice or true/false options (your choice).
-    the player will have a limited amount of time to finish the quiz. 
-    the game ends when the time tuns out. the page will reveal the number of questions that players answer correctly and incorrectly.
-    dont let the player pick more than one answer per question.
-    dont forget to include a countdown timer. 
-
-    make a multi-question, multiple choice trivia-stlye game. 
-    With a timer that will "close" the trivia test. 
-    And a (DONE) button that will do exactly the same function as the timer.
-    radio button
-    dynamically code with jQuery
-
-    link to repo || github page link || portfolio w/ link link>>>>>
-
-    
-</body>
+  </body>
 </html>
